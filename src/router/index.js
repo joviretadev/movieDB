@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-
+import MovieData from '../components/MovieData.vue'
+import UpcomingMovies from '../components/UpcomingMovies.vue'
+import Dashboard from '../components/Dashboard.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -9,6 +11,21 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/movie/:id',
+    name: 'Home',
+    component: MovieData
+  },
+  {
+    path: '/upcoming',
+    name: 'upcoming',
+    component: UpcomingMovies
+  },
+  {
+    path: '/dashboard',
+    name: 'dashboard',
+    component: Dashboard
   },
   {
     path: '/about',

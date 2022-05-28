@@ -1,0 +1,217 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/rastatay/.nvm/versions/node/v6.14.0/bin/node',
+1 verbose cli   '/Users/rastatay/.nvm/versions/node/v6.14.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '16' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData 16@^0.0.2
+8 silly fetchNamedPackageData 16
+9 silly mapToRegistry name 16
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: '16',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: '16',
+12 silly mapToRegistry   name: '16',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/16
+14 verbose request uri https://registry.npmjs.org/16
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 20:54:19
+17 verbose request id 8bb26aaeccc7146b
+18 verbose etag W/"21f56c87e5677f8ea49f23acecd8c76f"
+19 verbose lastModified Sat, 26 May 2018 14:08:42 GMT
+20 http request GET https://registry.npmjs.org/16
+21 http 304 https://registry.npmjs.org/16
+22 verbose headers { date: 'Sat, 07 May 2022 18:54:21 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'cf-ray': '707c29e2085f664d-MAD',
+22 verbose headers   'cache-control': 'public, max-age=300',
+22 verbose headers   etag: '"21f56c87e5677f8ea49f23acecd8c76f"',
+22 verbose headers   'last-modified': 'Sat, 26 May 2018 14:08:42 GMT',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   'cf-cache-status': 'MISS',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sat, 07 May 2022 18:54:21 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'cf-ray': '707c29e2085f664d-MAD',
+23 silly get     'cache-control': 'public, max-age=300',
+23 silly get     etag: '"21f56c87e5677f8ea49f23acecd8c76f"',
+23 silly get     'last-modified': 'Sat, 26 May 2018 14:08:42 GMT',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     'cf-cache-status': 'MISS',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/16 from cache
+25 verbose get saving 16 to /Users/rastatay/.npm/registry.npmjs.org/16/.cache.json
+26 verbose correctMkdir /Users/rastatay/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule 16@0.0.2 checking installable status
+40 silly cache add args [ '16@^0.0.2', null ]
+41 verbose cache add spec 16@^0.0.2
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: '16@^0.0.2',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: '16',
+42 silly cache add   name: '16',
+42 silly cache add   rawSpec: '^0.0.2',
+42 silly cache add   spec: '>=0.0.2 <0.0.3',
+42 silly cache add   type: 'range' }
+43 silly addNamed 16@>=0.0.2 <0.0.3
+44 verbose addNamed ">=0.0.2 <0.0.3" is a valid semver range for 16
+45 silly addNameRange { name: '16', range: '>=0.0.2 <0.0.3', hasData: false }
+46 silly mapToRegistry name 16
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: '16',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: '16',
+49 silly mapToRegistry   name: '16',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/16
+51 verbose addNameRange registry:https://registry.npmjs.org/16 not in flight; fetching
+52 verbose get https://registry.npmjs.org/16 not expired, no request
+53 silly addNameRange number 2 { name: '16', range: '>=0.0.2 <0.0.3', hasData: true }
+54 silly addNameRange versions [ '16', [ '0.0.1', '0.0.2' ] ]
+55 silly addNamed 16@0.0.2
+56 verbose addNamed "0.0.2" is a plain semver version for 16
+57 silly cache afterAdd 16@0.0.2
+58 verbose afterAdd /Users/rastatay/.npm/16/0.0.2/package/package.json not in flight; writing
+59 verbose correctMkdir /Users/rastatay/.npm correctMkdir not in flight; initializing
+60 verbose afterAdd /Users/rastatay/.npm/16/0.0.2/package/package.json written
+61 silly fetchNamedPackageData numeric
+62 silly mapToRegistry name numeric
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'numeric',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'numeric',
+65 silly mapToRegistry   name: 'numeric',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/numeric
+67 verbose request uri https://registry.npmjs.org/numeric
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 20:54:21
+70 verbose etag W/"7fd2a0d663dab7550ae86ad202b3a938"
+71 verbose lastModified Sun, 27 May 2018 10:51:54 GMT
+72 http request GET https://registry.npmjs.org/numeric
+73 http 304 https://registry.npmjs.org/numeric
+74 verbose headers { date: 'Sat, 07 May 2022 18:54:23 GMT',
+74 verbose headers   connection: 'keep-alive',
+74 verbose headers   'cf-ray': '707c29eed884664d-MAD',
+74 verbose headers   'cache-control': 'public, max-age=300',
+74 verbose headers   etag: '"7fd2a0d663dab7550ae86ad202b3a938"',
+74 verbose headers   'last-modified': 'Sun, 27 May 2018 10:51:54 GMT',
+74 verbose headers   vary: 'Accept-Encoding',
+74 verbose headers   'cf-cache-status': 'MISS',
+74 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+74 verbose headers   server: 'cloudflare' }
+75 silly get cb [ 304,
+75 silly get   { date: 'Sat, 07 May 2022 18:54:23 GMT',
+75 silly get     connection: 'keep-alive',
+75 silly get     'cf-ray': '707c29eed884664d-MAD',
+75 silly get     'cache-control': 'public, max-age=300',
+75 silly get     etag: '"7fd2a0d663dab7550ae86ad202b3a938"',
+75 silly get     'last-modified': 'Sun, 27 May 2018 10:51:54 GMT',
+75 silly get     vary: 'Accept-Encoding',
+75 silly get     'cf-cache-status': 'MISS',
+75 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+75 silly get     server: 'cloudflare' } ]
+76 verbose etag https://registry.npmjs.org/numeric from cache
+77 verbose get saving numeric to /Users/rastatay/.npm/registry.npmjs.org/numeric/.cache.json
+78 verbose correctMkdir /Users/rastatay/.npm correctMkdir not in flight; initializing
+79 silly resolveWithNewModule numeric@1.2.6 checking installable status
+80 silly cache add args [ 'numeric@^1.2.6', null ]
+81 verbose cache add spec numeric@^1.2.6
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'numeric@^1.2.6',
+82 silly cache add   scope: null,
+82 silly cache add   escapedName: 'numeric',
+82 silly cache add   name: 'numeric',
+82 silly cache add   rawSpec: '^1.2.6',
+82 silly cache add   spec: '>=1.2.6 <2.0.0',
+82 silly cache add   type: 'range' }
+83 silly addNamed numeric@>=1.2.6 <2.0.0
+84 verbose addNamed ">=1.2.6 <2.0.0" is a valid semver range for numeric
+85 silly addNameRange { name: 'numeric', range: '>=1.2.6 <2.0.0', hasData: false }
+86 silly mapToRegistry name numeric
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'numeric',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'numeric',
+89 silly mapToRegistry   name: 'numeric',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/numeric
+91 verbose addNameRange registry:https://registry.npmjs.org/numeric not in flight; fetching
+92 verbose get https://registry.npmjs.org/numeric not expired, no request
+93 silly addNameRange number 2 { name: 'numeric', range: '>=1.2.6 <2.0.0', hasData: true }
+94 silly addNameRange versions [ 'numeric',
+94 silly addNameRange   [ '1.0.3',
+94 silly addNameRange     '1.1.9',
+94 silly addNameRange     '1.2.0',
+94 silly addNameRange     '1.2.1',
+94 silly addNameRange     '1.2.2',
+94 silly addNameRange     '1.2.3',
+94 silly addNameRange     '1.2.4',
+94 silly addNameRange     '1.2.5',
+94 silly addNameRange     '1.2.6' ] ]
+95 silly addNamed numeric@1.2.6
+96 verbose addNamed "1.2.6" is a plain semver version for numeric
+97 silly cache afterAdd numeric@1.2.6
+98 verbose afterAdd /Users/rastatay/.npm/numeric/1.2.6/package/package.json not in flight; writing
+99 verbose correctMkdir /Users/rastatay/.npm correctMkdir not in flight; initializing
+100 verbose afterAdd /Users/rastatay/.npm/numeric/1.2.6/package/package.json written
+101 silly rollbackFailedOptional Starting
+102 silly rollbackFailedOptional Finishing
+103 silly runTopLevelLifecycles Finishing
+104 silly install printInstalled
+105 verbose stack Error: Unsupported URL Type: npm:vue-loader@^15.9.7
+105 verbose stack     at parseUrl (/Users/rastatay/.nvm/versions/node/v6.14.0/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:186:13)
+105 verbose stack     at npa (/Users/rastatay/.nvm/versions/node/v6.14.0/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:79:12)
+105 verbose stack     at module.exports (/Users/rastatay/.nvm/versions/node/v6.14.0/lib/node_modules/npm/node_modules/realize-package-specifier/index.js:12:15)
+105 verbose stack     at childDependencySpecifier (/Users/rastatay/.nvm/versions/node/v6.14.0/lib/node_modules/npm/lib/install/deps.js:104:3)
+105 verbose stack     at addDependency (/Users/rastatay/.nvm/versions/node/v6.14.0/lib/node_modules/npm/lib/install/deps.js:442:3)
+105 verbose stack     at /Users/rastatay/.nvm/versions/node/v6.14.0/lib/node_modules/npm/lib/install/deps.js:401:5
+105 verbose stack     at /Users/rastatay/.nvm/versions/node/v6.14.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+105 verbose stack     at Array.forEach (native)
+105 verbose stack     at /Users/rastatay/.nvm/versions/node/v6.14.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+105 verbose stack     at Array.forEach (native)
+106 verbose cwd /Users/rastatay/Documents/dbmovie
+107 error Darwin 21.4.0
+108 error argv "/Users/rastatay/.nvm/versions/node/v6.14.0/bin/node" "/Users/rastatay/.nvm/versions/node/v6.14.0/bin/npm" "install" "16"
+109 error node v6.14.0
+110 error npm  v3.10.10
+111 error Unsupported URL Type: npm:vue-loader@^15.9.7
+112 error If you need help, you may report this error at:
+112 error     <https://github.com/npm/npm/issues>
+113 verbose exit [ 1, true ]
